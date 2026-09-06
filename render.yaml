@@ -23,8 +23,8 @@ services:
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     envVars:
-  - key: VITE_API_URL
-    value: https://academic-planner-api-47y7.onrender.com/api
+      - key: VITE_API_URL
+        value: https://academic-planner-api-47y7.onrender.com/api
 
 databases:
   - name: academic-planner-db
